@@ -75,9 +75,9 @@ public class LogoutPageGeneratingWebFilter implements WebFilter {
 		page.append("    <meta name=\"description\" content=\"\">\n");
 		page.append("    <meta name=\"author\" content=\"\">\n");
 		page.append("    <title>Confirm Log Out?</title>\n");
-		page.append("    <link href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css\" "
+		page.append("    <link href=\"static/css/bootstrap.min.css\" "
 				+ "rel=\"stylesheet\" integrity=\"sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M\" crossorigin=\"anonymous\">\n");
-		page.append("    <link href=\"https://getbootstrap.com/docs/4.0/examples/signin/signin.css\" "
+		page.append("    <link href=\"static/css/signin.css\" "
 				+ "rel=\"stylesheet\" crossorigin=\"anonymous\"/>\n");
 		page.append("  </head>\n");
 		page.append("  <body>\n");
